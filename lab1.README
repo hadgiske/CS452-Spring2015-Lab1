@@ -1,1 +1,16 @@
-name, date, description
+/*
+*	Katie Hadgis
+*	CS452 Computer Graphics
+*	Homework #1
+*	01/29/15
+*
+*
+*	lab1.js:
+*		- 3 sets of vertices for 3 shapes: A unit circle, a star, two skewed rects
+*		- Each shape has its own display buffer
+*		- Click the button to change shapes
+*
+*	lab1.html:
+*		- Displays the shapes from lab1.js
+*	
+*/
