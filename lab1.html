@@ -1,8 +1,15 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 
 <script id="vertex-shader" type="x-shader/x-vertex">
+/*
+*	Katie Hadgis
+*	CS452 Computer Graphics
+*	Homework #1
+*	01/29/15
+*/
 attribute vec4 vPosition;
 
 void
@@ -18,13 +25,13 @@ precision mediump float;
 void
 main()
 {
-    gl_FragColor = vec4( 1.0, 1.0, 1.0, 1.0 );
+    gl_FragColor = vec4( 1.0, 0.0, 0.0, 0.5);
 }
 </script>
 
-<script type="text/javascript" src="../Common/webgl-utils.js"></script>
-<script type="text/javascript" src="../Common/initShaders.js"></script>
-<script type="text/javascript" src="../Common/MV.js"></script>
+<script type="text/javascript" src="Common/webgl-utils.js"></script>
+<script type="text/javascript" src="Common/initShaders.js"></script>
+<script type="text/javascript" src="Common/MV.js"></script>
 <script type="text/javascript" src="lab1.js"></script>
 </head>
 
@@ -32,5 +39,7 @@ main()
 <canvas id="gl-canvas" width="512" height="512">
 Oops ... your browser doesn't support the HTML5 canvas element
 </canvas>
+<br/>
+<button type="button" id="button">Next Shape</button>
 </body>
 </html>
